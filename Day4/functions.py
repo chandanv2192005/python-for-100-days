@@ -2,7 +2,7 @@
 
 def greet(name):
     """Function to greet a person by name."""
-    return f"Hello, {name}!"
+    return f"Hello, {name}!" 
 
 # Example usage
 print(greet("Alice"))
