@@ -7,7 +7,7 @@ def greet(name):
 # Example usage
 print(greet("Alice"))
 
-# Function with default arguments
+# Function with default arguments 
 def power(base, exponent=2):
     """Function to calculate the power of a number."""
     return base ** exponent
