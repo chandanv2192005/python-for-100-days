@@ -1,4 +1,4 @@
-# Day 4: Functions in Python
+ # Day 4: Functions in Python
 
 def greet(name):
     """Function to greet a person by name."""
