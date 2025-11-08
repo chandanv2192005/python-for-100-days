@@ -5,7 +5,7 @@ def greet(name):
     return f"Hello, {name}!"  
 
 # Example usage 
-print(greet("Alice"))
+print(greet("Alice")) 
 
 # Function with default arguments 
 def power(base, exponent=2):
