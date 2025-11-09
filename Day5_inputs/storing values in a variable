@@ -1,0 +1,9 @@
+username = input("what is your name ")
+length = len(username)
+print(username)
+print(length)
+
+output
+what is your name chandan
+chandan
+7
