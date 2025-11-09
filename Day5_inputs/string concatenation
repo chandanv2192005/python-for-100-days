@@ -1,0 +1,8 @@
+print("hello " + " chandan ")
+              or
+print("hello" + " " + "chandan ")
+
+
+
+output
+hello chandan
