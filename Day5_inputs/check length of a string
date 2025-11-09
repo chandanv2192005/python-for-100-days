@@ -1,0 +1,5 @@
+name = "chandan"
+print(len(name))
+
+output
+7
