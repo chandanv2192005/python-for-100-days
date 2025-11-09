@@ -1,0 +1,5 @@
+print(len(input("what is your name: ")))
+
+output
+what is your name: chandan
+7
