@@ -1,0 +1,5 @@
+print("hello " + input("what is your name: ") + "!")
+
+output
+what is your name: chandan
+hello chandan!
