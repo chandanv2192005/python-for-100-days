@@ -1,0 +1,8 @@
+print(20//6)
+output
+3
+
+whereas if we use single / for division we get floating value this is called implisit type casting
+eg print(20/6)
+ output
+ 3.33333333333
