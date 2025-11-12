@@ -1,0 +1,11 @@
+number_to_check = int(input("enter the number to check: "))
+remainder = (number_to_check % 2)
+
+if remainder == 0:
+    print("the entered number is even")
+else:
+    print("the entered number is odd")
+
+output
+enter the number to check: 2276
+the entered number is even
