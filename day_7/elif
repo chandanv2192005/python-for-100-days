@@ -1,0 +1,21 @@
+print("welcome to the rollercoaster ")
+height = int(input("what is your height in cm "))
+
+if height >= 120:
+    print("you can ride the rollercoaster ")
+    age = int(input("enter your age "))
+    if age <= 12:
+        print("please pay 100 ")
+    elif age <= 18:
+        print("please pay 150")
+    else:
+        print("please pay 200 ")
+else:
+    print("you are not tall enough to ride the rollercoaster ")
+
+output
+welcome to the rollercoaster 
+what is your height in cm 120
+you can ride the rollercoaster 
+enter your age 18
+please pay 150
