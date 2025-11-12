@@ -1,0 +1,16 @@
+weight = 70
+height = 1.85
+
+bmi = weight / (height ** 2)
+print(f"your bmi is {bmi}")
+
+if bmi <= 18.5:
+    print("you are underweight")
+elif bmi <= 25:                            
+        print("your weight is normal")
+else:
+    print("you are overweight")
+
+output:
+your bmi is 20.45288531775018
+your weight is normal
