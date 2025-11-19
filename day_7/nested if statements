@@ -8,7 +8,7 @@ if height >= 120:
         print("please pay 100 ")
     else: 
         print("please pay 150 ")
-else:
+else: 
     print("you are not tall enough to ride the rollercoaster ")
 
 output
