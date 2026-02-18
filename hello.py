@@ -1,6 +1,14 @@
-number_to_check = int(input("what is the number you want ot check:"))
+print("welcome to rollercoster")
+height = int(input("what is your height in cm?"))
 
-if number_to_check % 2 == 0:
-    print("the number is even")
+if height >= 120:
+    print("you can ride the rollercoster")
+    age = int(input("what is your age?"))
+    if age < 12:
+        print("you have to pay $5")
+    elif age >= 12 and age < 18:
+        print("you have to pay $7")
+    else:
+        print("you have to pay $12")
 else:
-    print("the number is odd")
+    print("you cannot ride the rollercoster")
