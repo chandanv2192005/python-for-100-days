@@ -1,14 +1,10 @@
-print("welcome to rollercoster")
-height = int(input("what is your height in cm?"))
+score = 75
 
-if height >= 120:
-    print("you can ride the rollercoster")
-    age = int(input("what is your age?"))
-    if age < 12:
-        print("you have to pay $5")
-    elif age >= 12 and age < 18:
-        print("you have to pay $7")
-    else:
-        print("you have to pay $12")
-else:
-    print("you cannot ride the rollercoster")
+if score >= 90:
+  print("Grade: A")
+elif score >= 80:
+  print("Grade: B")
+elif score >= 70:
+  print("Grade: C")
+elif score >= 60:
+  print("Grade: D")
