@@ -7,4 +7,9 @@ def greet():
     print(x) # can access local variable: prints 10
 
 greet()
-# print(x) # ERROR! x does not exist outside the function
+
+try:
+    print(x) # This will cause a NameError
+except NameError as e:
+    print(f"Caught expected error: {e}")
+    print("Explanation: 'x' is a local variable inside greet() and cannot be accessed outside.")
