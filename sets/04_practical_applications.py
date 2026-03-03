@@ -3,9 +3,9 @@
 # 1. Deduplication (Removing Duplicates)
 # Converting a list to a set automatically removes duplicates.
 raw_emails = ["user1@example.com", "user2@example.com", "user1@example.com", "user3@example.com"]
-unique_emails = list(set(raw_emails))
+unique_emails_set = set(raw_emails)
 print(f"Original: {raw_emails}")
-print(f"Unique: {unique_emails}")
+print(f"Unique: {unique_emails_set}")
 
 # 2. Efficient Membership Testing
 # Sets are optimized for O(1) lookups, unlike lists O(n).
