@@ -9,3 +9,4 @@ for el in int_array:
 
 print(f"First element: {int_array[0]}")
 print(f"Last element: {int_array[-1]}")
+ 
