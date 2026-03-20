@@ -6,7 +6,7 @@ Example: [10, 20, 4, 45, 99] -> 45
 
 def find_second_largest(arr):
     if len(arr) < 2:
-        return None
+        return None 
     
     # Initialize with negative infinity
     first = second = float('-inf')
