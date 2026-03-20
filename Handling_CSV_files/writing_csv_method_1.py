@@ -3,7 +3,7 @@ import csv
 # Data to be written (list of lists)
 data = [
     ["Product ID", "Name", "Category", "Price"],
-    [101, "Wireless Mouse", "Electronics", 25.99],
+    [101, "Wireless Mouse", "Electronics", 25.99], 
     [102, "Mechanical Keyboard", "Electronics", 89.50],
     [103, "Ergonomic Chair", "Furniture", 199.99],
     [104, "Standing Desk", "Furniture", 299.00]
