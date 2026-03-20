@@ -4,7 +4,7 @@ with open("students.csv", "r") as file:
 header = lines[0].strip().split(",")
 
 for line in range(1, len(lines)):
-    values = lines[line].strip().split(",")#read the line and split it into values
+    values = lines[line].strip().split(",")#read the line and split it into values 
     name = values[0]
     age = int(values[1])
     grade = float(values[2])
