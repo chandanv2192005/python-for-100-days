@@ -10,7 +10,7 @@ def is_palindrome_string(s):
     reversed_str = s[::-1]
     return s == reversed_str
 
-def is_palindrome_number(n):
+def is_palindrome_number(n): 
     # Method 2: Mathematical approach for numbers
     if n < 0:
         return False
