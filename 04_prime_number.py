@@ -5,7 +5,7 @@ Logic: A prime number is a natural number greater than 1 that has no positive di
 
 import math
 
-def is_prime(n):
+def is_prime(n): 
     if n <= 1:
         return False
     if n == 2:
