@@ -4,7 +4,7 @@
 def main():
     try:
         with open("example_write.txt", "r") as file:
-            print("Reading line by line:") 
+            print("Reading line by line:")  
             for line_number, line in enumerate(file, 1): 
                 print(f"Line {line_number}: {line.strip()}")  
     except FileNotFoundError:
