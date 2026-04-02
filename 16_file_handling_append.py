@@ -8,5 +8,5 @@ def main():
     print("Successfully appended to example_write.txt")
 
 if __name__ == "__main__": 
-    main()
+    main() 
 # End of append script 
