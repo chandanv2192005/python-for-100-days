@@ -7,6 +7,6 @@ def main():
         file.write("Appending this new line at the end.\n")
     print("Successfully appended to example_write.txt")
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()
 # End of append script 
