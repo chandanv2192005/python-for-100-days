@@ -4,7 +4,7 @@ Logic: Reversing string order.
 Python provides several elegant ways to do this.
 """
  
-def reverse_slicing(s):
+def reverse_slicing(s): 
     # Method 1: Slicing (Fastest and most Pythonic) 
     return s[::-1]
 
