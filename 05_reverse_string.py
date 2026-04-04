@@ -5,7 +5,7 @@ Python provides several elegant ways to do this.
 """
 
 def reverse_slicing(s):
-    # Method 1: Slicing (Fastest and most Pythonic)
+    # Method 1: Slicing (Fastest and most Pythonic) 
     return s[::-1]
 
 def reverse_loop(s):
